@@ -1,0 +1,780 @@
+
+/* CSS Document */
+
+@media screen, print {
+	/*---- ページコンテンツ ----*/
+	div.m_overrideBox  .guide-list a:hover img,
+	div.m_overrideBox  .check-check-contents a:hover,
+	div.m_overrideBox  .news-box a:hover img,
+	div.m_overrideBox  .link-box a:hover img{
+		opacity: 0.5;
+	    -moz-opacity: 0.5;
+	    filter: alpha(opacity = 50);
+	}
+
+	div.m_overrideBox .dreamplace-box{
+		margin: 0 auto 30px;
+	}
+
+	/* left-wrapコンテンツ部分 */
+	div.m_overrideBox .dreamplace-box .guide-list{
+		margin: 0 0 0 -1.66%;	
+	}
+
+	div.m_overrideBox .dreamplace-box .guide-list li{
+		width: 48.3%;
+		float: left;	
+		margin-left: 1.66%;
+		margin-bottom: 1.5em;
+		background: #fff;
+		position:relative;
+		text-align:center;
+	}
+
+	div.m_overrideBox .guide-list li a img{
+		margin-bottom:7px;
+		}
+
+	div.m_overrideBox .dreamplace-box .guide-list li p{
+		padding: 1em 1.2em 1em 1.2em;
+		font-weight:bold;
+		border-bottom:1px solid #eee;
+	}
+
+	div.m_overrideBox .dreamplace-box .guide-list li p.ttl_jambo{
+		background-color:#ec2929;
+		color:#fff;
+	}
+	div.m_overrideBox .dreamplace-box .guide-list li p.ttl_loto{
+		background-color:#04a7d6;
+		color:#fff;
+	}
+	div.m_overrideBox .dreamplace-box .guide-list li p.ttl_scratch{
+		background-color:#15b615;
+		color:#fff;
+	}
+	div.m_overrideBox .dreamplace-box .guide-list li p.ttl_numbers{
+		background-color:#04a7d6;
+		color:#fff;
+	}
+	div.m_overrideBox .dreamplace-box .guide-list li p.elect_number{
+		padding: 0.4em 1.3em;
+		background-color:#fff;
+		position:relative;
+		z-index:2;
+		min-height:20px;
+		width:150px;
+		margin:0 auto 10px;
+		background-image:url(../image/check_elect.gif);
+		background-repeat:no-repeat;
+		border-bottom:none;
+		}
+		
+	/* left-wrapコンテンツ部分 - payment */
+	div.m_overrideBox .dreamplace-box .check-payment-box{
+		background-color:#fff;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-payment-box h3{
+		font-size: 1.3333em;
+		padding:12px 15px;
+		color:#fff;
+		background-color:#e60000;
+		border-bottom:6px solid #ffe1b3;
+		}
+		
+	div.m_overrideBox .dreamplace-box .check-payment-box .inner-box{
+		padding:25px 20px;
+		}
+		
+	div.m_overrideBox .dreamplace-box .check-payment-box p{
+		line-height:1.5;
+		margin-bottom:1.5em;
+		}
+
+	div.m_overrideBox .dreamplace-box .check-payment-box dl{
+		line-height:1.5;
+		font-weight:bold;
+		margin-bottom:1.5em;
+		}
+		
+	div.m_overrideBox .dreamplace-box .check-payment-box dl dt{
+		float:left;
+		margin-left:1em;
+		padding:2px 0;
+		color:#f00;
+		}
+
+	div.m_overrideBox .dreamplace-box .check-payment-box dl dd{
+		margin-left:2.3em;
+		padding:2px 0;
+		}
+		
+	div.m_overrideBox .dreamplace-box .check-payment-box dl dd span{
+		font-weight:normal;
+		}
+		
+	div.m_overrideBox .dreamplace-box .check-payment-box p.attention{
+		text-indent:-1em;
+		margin-left:1em;
+		margin-bottom:0;
+		}
+		
+	div.m_overrideBox .dreamplace-box .check-payment-box p.red{
+		color:#f00;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box h4{
+		color:#e60000;
+		font-weight:bold;
+		font-size: 1.8em;
+		margin:5% 0 10px;
+		padding-bottom:1%;
+		border-bottom:3px solid #e60000;
+	}
+
+	div.m_overrideBox .check-check-box .check-check-howto{
+		margin-bottom:1.3em;
+	}
+
+	div.m_overrideBox .check-check-box .check-check-howto img{
+		width:auto;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .arrow img{
+		width:11px;
+		height:11px;
+		margin-left:5px;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .arrow dt{
+		background-image:url(../image/link_arrow.gif);
+		background-position: left 2px;
+		background-repeat:no-repeat;
+		display:table-cell;
+		vertical-align:middle;
+		width: 16px;
+		height:20px;
+		margin-left:0;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .arrow dd{
+		padding-left: 5px;
+		display:table-cell;
+		vertical-align:middle;
+		font-weight:normal;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-service-end{
+		margin:20px 0;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-service-end p{
+		margin-bottom:15px;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box{
+		background-color:#e5f4ef;
+		padding:2.3%;
+		margin-bottom:10px;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box h5{
+		color:#e60000;
+		font-size: 1.3em;
+		background-image:url(../image/check_tel_arrow.png);
+		background-repeat:no-repeat;
+		padding:0 0 10px 1.2em;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box p.tel-caption{
+		padding:0 3%;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box .check-telephone-number{
+		background-color:#fff;
+		border:1px solid #e60000;
+		padding:2%;
+		width:80%;
+		margin:auto;
+		font-size: 1.6em;
+		font-weight:bold;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box .check-telephone-number p{
+		margin-bottom:0;
+		line-height:1.2em;
+	}
+
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box .check-telephone-number p span{
+		font-weight:normal;
+		font-size: 0.7em;
+		line-height:0.2;
+	}
+
+	div.m_overrideBox .check-check-box .check-period-list{
+		margin-top:1.3em;
+		margin-bottom:1.3em;
+	}
+
+	div.m_overrideBox .check-check-box .check-retry-contact{
+		border:1px solid #999999;
+		width:70%;
+		margin:auto;
+	}
+
+	div.m_overrideBox .check-check-box .check-retry-contact p.check-retry-contact-title{
+		border-bottom:1px solid #999999;
+		padding:1em;
+		background-color:#ebebeb;
+		width: 100%;
+		text-align:center;
+	}
+
+	div.m_overrideBox .check-check-box .check-retry-contact p.check-retry-contact-title img{
+		width:auto;
+	}
+
+	div.m_overrideBox .check-check-box .check-retry-contact p.check-retry-contact-contents{
+		padding:0 5%;
+		text-align:center;
+		font-weight:bold;
+		width: 100%;
+		color:#232323;
+		font-size: 1.2em;
+		line-height:2.2em;
+	}
+
+	div.m_overrideBox .check-dream-box .check-dream-back-qoo{
+		width: 100%;
+		min-height:175px;
+		background-image:url(../image/check_dream_qoo.jpg);
+		background-size:40%;
+		background-position:right bottom;
+		background-repeat:no-repeat;
+		padding:25px 20px;
+		position:relative;
+	}
+
+	div.m_overrideBox .check-dream-box .check-dream-back-qoo p{
+		width:65%;
+	}
+
+	/* 宝くじドリーム館一覧 */
+	div.m_overrideBox .check-dream-box .tabbox{
+		background-color: #fff;
+	}
+
+	div.m_overrideBox .check-dream-box .tab{
+		background-color: #fff;
+		
+	}
+
+
+	/* 一覧内タブ */
+	div.m_overrideBox .check-dream-box .tabs{
+		display: table;
+		width: 100%;
+		border:1px solid #e60000;
+		border-bottom:5px solid #e60000;
+	}
+
+	div.m_overrideBox .check-dream-box .tabs li{
+		display: table;
+		float: left;
+		width: 50%;
+		background: #fff;
+		text-align: center;
+	}
+
+	div.m_overrideBox .check-dream-box .tabs span{
+		display: table-cell;
+		text-decoration:none;
+		color: #000;
+		font-size: 1.3333em;
+		font-weight: bold;
+		vertical-align: middle;
+		width: 100%;
+		height: 45px;
+		background-image: url(../image/know_tab_arrow_off.png);
+		background-repeat: no-repeat;
+		background-position: 5% center;
+		cursor: pointer;
+	}
+	div.m_overrideBox .check-dream-box .tab2{
+		border-left: 1px solid #b4b4b4;
+	}
+
+	div.m_overrideBox .check-dream-box .tabs li.select span,
+	div.m_overrideBox .check-dream-box .tabs span:hover{
+		background: #e60000;
+		color: #fff;
+		background-image: url(../image/know_tab_arrow_on.png);
+		background-repeat: no-repeat;	
+		background-position: 5% center;
+	}
+
+	div.m_overrideBox .check-dream-box .tabbox .hide {
+		display:none;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table{
+		margin-bottom:10px;
+		width: 100%;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table th{
+		padding:15px 10px;
+		font-weight:normal;
+		background-color:#fff5e5;
+		vertical-align:middle;
+		border:1px solid #ccc;
+		width:74px;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table .th2{
+		background-color:#ffebca;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table td{
+		padding:15px 10px;
+		border:1px solid #ccc;
+		vertical-align:middle;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table .last-td{
+		width:35%;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table td span{
+		color:#ff0000;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table2{
+		width:50%;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table.ver2 {
+		
+	}
+
+	div.m_overrideBox .check-dream-box .dream-table.ver2 th,
+	div.m_overrideBox .check-dream-box .dream-table.ver2 td {
+		text-align: center;
+	}
+
+
+
+
+
+
+	div.m_overrideBox .check-dream-box .dream-access{
+		line-height:1.5em;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-access .dream-access-train{
+		font-weight:bold;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-access .dream-access-train-item dl{
+		margin: 2px 0 6px;
+		font-weight: normal;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-access .dream-access-train-item dt{
+	    margin-left: 0;
+		padding: 0;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-access .dream-access-train-item dd{
+		margin-left: 14px;
+		line-height: 1.2;
+	}
+
+	div.m_overrideBox .red{
+		color: #ff0000;
+	}
+
+	div.m_overrideBox .check-dream-box .osaka,
+	div.m_overrideBox .check-dream-box .tokyo{
+		position: relative;
+	}
+
+	div.m_overrideBox .check-dream-box .osaka .popup-modal img{
+		width:auto;
+	}
+
+	div.m_overrideBox .check-dream-box .tokyo .popup-modal img{
+		width:auto;
+	}
+
+	div.m_overrideBox .list-osaka-detail1{
+		position: absolute;
+		left: 62.3%;
+		top: 67.5%;
+	}
+
+	div.m_overrideBox .list-osaka-detail2{
+		position: absolute;
+		left: 29.5%;
+		top: 66.2%;
+	}
+
+	div.m_overrideBox .list-osaka-detail3{
+		position: absolute;
+		left: 19.5%;
+		top: 59.1%;
+	}
+
+	div.m_overrideBox .list-osaka-detail4{
+		position: absolute;
+		left: 6.3%;
+		top: 61.5%;
+	}
+
+	div.m_overrideBox .list-osaka-detail5{
+		position: absolute;
+		left: 13.8%;
+		top: 51.4%;
+	}
+
+	div.m_overrideBox .list-osaka-detail6{
+		position: absolute;
+		left: 8.3%;
+		top: 44.9%;
+	}
+
+	div.m_overrideBox .list-osaka-detail7{
+		position: absolute;
+		left: 37.9%;
+		top: 50.8%;
+	}
+
+	div.m_overrideBox .list-osaka-detail8{
+		position: absolute;
+		left: 85.9%;
+		top: 42.4%;
+	}
+
+	div.m_overrideBox .list-osaka-detail9{
+		position: absolute;
+		left: 73.2%;
+		top: 28.9%;
+	}
+
+	div.m_overrideBox .list-osaka-detail10{
+		position:absolute;
+		left: 73.2%;
+		top: 12.9%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail1{
+		position: absolute;
+		left: 46.3%;
+		top: 60.7%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail2{
+		position: absolute;
+		left: 18.5%;
+		top: 69.3%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail3{
+		position: absolute;
+		left: 7.8%;
+		top: 62.6%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail4{
+		position: absolute;
+		left: 41.4%;
+		top: 31.8%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail5{
+		position: absolute;
+		left: 21.9%;
+		top: 28.6%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail6{
+		position: absolute;
+		left: 6.8%;
+		top: 26.9%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail7{
+		position: absolute;
+		left: 11.8%;
+		top: 7.9%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail8{
+		position: absolute;
+		left: 38.4%;
+		top: 20.3%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail9{
+		position: absolute;
+		left: 59.2%;
+		top: 6.9%;
+	}
+
+	div.m_overrideBox .list-tokyo-detail10{
+		position: absolute;
+		left: 81.4%;
+		top: 39.4%;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-access-left{
+		width:50%;
+	}
+		
+	div.m_overrideBox .check-dream-box .dream-access-right{
+		width:50%;
+	}
+
+	div.m_overrideBox .check-dream-box .dream-access-right2{
+		width:49%;
+	}
+
+	/* モーダル */
+	.modal_box{
+		padding: 20px 20px 30px 20px;
+		background: #fff;
+		margin: 0 auto;
+		box-shadow:0 0 10px #666;
+		font-size:1.2rem;
+	}
+
+	.modal_box h4{
+		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 1.5;
+		padding-bottom: 6px;
+		color:#e60000;
+		border-bottom:3px solid #e60000;
+		margin-bottom:10px;
+	}
+
+	.modal_box .case{
+		font-size: 1.0em;
+		text-align: left;
+		padding-bottom: 8px;
+		padding-left: 10px;
+		line-height:1.5em;
+		margin: 0;
+	}
+
+	.modal_box table{
+		border: 1px solid #ccc;
+		width: 100%;
+		text-align: center;
+		line-height: 1.3;
+	}
+
+	.modal_box table.jumbo th{
+		border: 1px solid #ccc;
+		background: #ec2929;
+		color: #fff;
+		padding:10px;
+		
+	}
+
+	.modal_box table.scratch th{
+		border: 1px solid #ccc;
+		background: #15b615;
+		color: #fff;
+		padding:10px;
+		
+	}
+	.modal_box td{
+		border: 1px solid #ccc;
+		padding:10px;
+		
+	}
+
+	/* Magnific Popup CSS */
+	.mfp-close-btn-in .mfp-close {
+	    background: #000 none repeat scroll 0 0 !important;
+	    color: #fff !important;
+	    font-size: 4.1667em;
+	    opacity: 1;
+	    -moz-opacity: 1;
+	    filter: alpha(opacity = 100);
+	    right: 0 !important;
+	    top: -50px !important;
+	    width: 42px !important;
+	}
+
+	.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+	    width: 40% !important;
+	}
+
+	.mfp-bg {
+	    background: #999999 !important;
+	}
+}
+
+
+
+/*===========================================
+	SP用スタイル
+============================================*/
+@media screen and (max-width: 768px) {
+	div.m_overrideBox .link-box,
+	div.m_overrideBox .news-box,
+	div.m_overrideBox .dreamplace-box{
+/*		width: 95%;*/
+		margin: 0 auto;
+	}
+	
+	div.m_overrideBox .dreamplace-box .guide-list{
+		margin: 0;
+	}
+	
+	div.m_overrideBox .dreamplace-box .guide-list {
+		margin: 0 0 0 0;
+	}
+	
+	div.m_overrideBox .dreamplace-box .guide-list li{
+		margin-left:0;
+	}
+	
+	div.m_overrideBox .dreamplace-box .guide-list li:nth-child(2n){
+		margin-left:0;
+		margin-right:0;
+	}
+	
+	div.m_overrideBox .guide-list li a{
+		color:#333;
+	}
+	
+	div.m_overrideBox .guide-list li a img{
+		margin-bottom: 7px;
+	}
+	
+	div.m_overrideBox .dreamplace-box .guide-list li p{
+		font-weight:normal;
+	}
+	
+	div.m_overrideBox .guide-list li{
+		height:auto;
+		margin:0 3% 3% 0;
+	}
+	
+	div.m_overrideBox .guide-list li a{
+		background-position: 6px center;
+		background-size: 5px auto;
+		font-size: 0.9166em;
+		min-height: 37px;
+	}
+	
+	div.m_overrideBox .dreamplace-box .guide-list li p.elect_number{
+		width: 132px;
+		font-size: 0.8333em;
+		background-image: url(../image/check_elect.gif);
+		background-size: 100%;
+	}
+	
+	/* left-wrapコンテンツ部分 - payment */
+	div.m_overrideBox .dreamplace-box .check-payment-box{
+		margin-bottom: 25px;
+	}
+	
+	div.m_overrideBox .dreamplace-box .check-check-box .check-check-contents{
+		margin-bottom: 30px;
+	}
+	
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box{
+		padding: 5% 3%;
+	}
+	
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box h5{
+		padding-left: 4%;
+	}
+	
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box .check-telephone-number{
+/*		width: 95%;*/
+	}
+	
+	div.m_overrideBox .dreamplace-box .check-check-box .check-telephone-box p.tel-caption{
+		padding:0 4.3%;
+	}
+	
+	div.m_overrideBox .check-check-box .check-check-howto img{
+		width: 100%;
+	}
+	
+	div.m_overrideBox .dreamplace-box .check-check-box h4{
+		font-size: 1.5em;
+	}
+	
+	div.m_overrideBox .check-check-box .check-retry-contact{
+		width: 100%;
+	}
+	
+	div.m_overrideBox .check-check-box .check-retry-contact p.check-retry-contact-title img{
+		width: 70%;
+	}
+	
+	div.m_overrideBox .check-check-box .check-retry-contact p.check-retry-contact-contents{
+		padding: 0 5%;
+		font-size: 0.8em;
+	}
+
+	div.m_overrideBox .check-dream-box .check-dream-back-qoo{
+		background: none;
+	}
+	
+	div.m_overrideBox .check-dream-box .check-dream-back-qoo p img{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 42%;
+	}
+	
+	div.m_overrideBox .check-dream-box .osaka .popup-modal img,
+	div.m_overrideBox .check-dream-box .tokyo .popup-modal img{
+		width: 25px;
+	}
+	
+	div.m_overrideBox .check-dream-box .tabs span{
+		font-size: 1.0em;
+		padding-left: 24px; 
+		padding-right: 5px;
+	}
+	
+	div.m_overrideBox .check-dream-box .dream-access-left,
+	div.m_overrideBox .check-dream-box .dream-access-right,
+	div.m_overrideBox .check-dream-box .dream-access-right2{
+		width: 100%;
+	}
+	
+	/* モーダル */
+	.modal_box {
+		padding: 25px 10px 25px;
+		font-size:1.2rem;
+	}
+	.modal_box td{
+		padding: 5px;
+	}
+	
+	/* Magnific Popup CSS */
+	.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+		width: 100% !important;
+	}
+	
+	.mfp-close-btn-in .mfp-close {
+		font-size: 3.3333em;
+		height: 38px !important;
+		right: 0 !important;
+		top: -45px !important;
+    	width: 35px !important;
+		line-height: 1;
+	}
+	
+	
+}

@@ -1,0 +1,95 @@
+/*- ロト情報 -*/
+.m_lotoInfo {
+  margin: 8px -4px;
+}
+.m_lotoInfo .m_loto6Box,
+.m_lotoInfo .m_loto7Box {
+  position: relative;
+  display: block;
+  float: left;
+  line-height: 1;
+  margin: 4px;
+  position: relative;
+  width: calc(100% - 8px);
+}
+.is_notTouchDevice .m_lotoInfo .m_loto6Box a:hover:before,
+.is_notTouchDevice .m_lotoInfo .m_loto7Box a:hover:before {
+  background: #fff;
+  border-radius: 6px;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.m_lotoInfo .m_loto6Box .m_loto6_carryover_block img,
+.m_lotoInfo .m_loto7Box .m_loto7_carryover_block img,
+.m_lotoInfo .m_loto6Box .m_loto6_billionaire_block img,
+.m_lotoInfo .m_loto7Box .m_loto7_billionaire_block img {
+  height: auto;
+  width: 100%;
+}
+.m_lotoInfo .m_loto6Box .m_loto6_carryover_block .m_loto6_carryover_number,
+.m_lotoInfo .m_loto7Box .m_loto7_carryover_block .m_loto7_carryover_number,
+.m_lotoInfo .m_loto6Box .m_loto6_billionaire_block .m_loto6_billionaire_number,
+.m_lotoInfo .m_loto7Box .m_loto7_billionaire_block .m_loto7_billionaire_number {
+  position: absolute;
+  right: 0.3em;
+  padding: 0 10px 0 0;
+  font-size: 5.8vw;
+  text-align: right;
+  color: #fff;
+  bottom: 2.0vw;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.m_lotoInfo .m_loto6Box .m_loto6_carryover_block .m_loto6_carryover_number span,
+.m_lotoInfo .m_loto7Box .m_loto7_carryover_block .m_loto7_carryover_number span,
+.m_lotoInfo .m_loto6Box .m_loto6_billionaire_block .m_loto6_billionaire_number span,
+.m_lotoInfo .m_loto7Box .m_loto7_billionaire_block .m_loto7_billionaire_number span {
+  margin: .9vw 5px 0;
+  font-size: 0.8em;
+}
+.m_lotoInfo .m_loto6Box .m_loto6_carryover_block .m_loto6_carryover_number span.u_lotoInfoComma,
+.m_lotoInfo .m_loto7Box .m_loto7_carryover_block .m_loto7_carryover_number span.u_lotoInfoComma,
+.m_lotoInfo .m_loto6Box .m_loto6_billionaire_block .m_loto6_billionaire_number span.u_lotoInfoComma,
+.m_lotoInfo .m_loto7Box .m_loto7_billionaire_block .m_loto7_billionaire_number span.u_lotoInfoComma {
+  font-size: 1em;
+  margin: 0;
+  letter-spacing: -0.05em;
+}
+.m_lotoInfo:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+@media all and (min-width: 769px) {
+  .m_lotoInfo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .m_lotoInfo .m_loto6Box,
+  .m_lotoInfo .m_loto7Box {
+    width: calc(50% - 8px);
+  }
+  .m_lotoInfo .m_loto6Box .m_loto6_carryover_block .m_loto6_carryover_number,
+  .m_lotoInfo .m_loto7Box .m_loto7_carryover_block .m_loto7_carryover_number,
+  .m_lotoInfo .m_loto6Box .m_loto6_billionaire_block .m_loto6_billionaire_number,
+  .m_lotoInfo .m_loto7Box .m_loto7_billionaire_block .m_loto7_billionaire_number {
+    right: 10px;
+    padding: 0 12px 0 0;
+    font-size: 2.4em;
+    bottom: 20px;
+
+  }
+  .m_lotoInfo .m_loto6Box .m_loto6_carryover_block .m_loto6_carryover_number span,
+  .m_lotoInfo .m_loto7Box .m_loto7_carryover_block .m_loto7_carryover_number span,
+  .m_lotoInfo .m_loto6Box .m_loto6_billionaire_block .m_loto6_billionaire_number span,
+  .m_lotoInfo .m_loto7Box .m_loto7_billionaire_block .m_loto7_billionaire_number span {
+    margin: 1.0vw 6px 0;
+    font-size: 0.7em;
+  }
+}

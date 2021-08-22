@@ -1,0 +1,124 @@
+
+
+/**********************************************
+ * datepicker.css
+ * jquery.uiのdatepickerのCSS定義
+ *********************************************/
+
+@media all {
+  .ui-datepicker {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+    display: none;
+    padding: 12px;
+  }
+
+  .ui-datepicker-header {
+    margin-bottom: 4px;
+    position: relative;
+  }
+
+  .ui-datepicker-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .ui-datepicker-prev {
+    background: url(../image/ic-prev001.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+    left: 0;
+    margin-top: -10px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -200%;
+    top: 50%;
+    width: 20px;
+  }
+
+  .ui-datepicker-prev.ui-state-disabled {
+    background-image: url(../image/ic-prev001-disabled.svg) !important;
+  }
+
+  .ui-datepicker-next {
+    background: url(../image/ic-prev001.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+    margin-top: -10px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -200%;
+    top: 50%;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    width: 20px;
+  }
+
+  .ui-datepicker-next.ui-state-disabled {
+    background-image: url(../image/ic-prev001-disabled.svg) !important;
+  }
+
+  .ui-datepicker-calendar {
+    border-spacing: 0;
+    font-size: 1.2rem;
+  }
+
+  .ui-datepicker-calendar thead th {
+    text-align: center;
+  }
+
+  .ui-datepicker-calendar tbody td {
+    vertical-align: middle;
+  }
+
+  .ui-datepicker-calendar tbody td a {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000 !important;
+    display: block;
+    height: 28px;
+    line-height: 1;
+    padding-top: 7px;
+    text-align: center;
+    text-decoration: none;
+    width: 28px;
+  }
+
+  .ui-datepicker-calendar tbody td.ui-datepicker-today a {
+    background-color: #fffbe6;
+    border: 1px solid #e50000;
+  }
+
+  .ui-datepicker-calendar tbody td.ui-state-disabled span {
+    background: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    color: #ccc;
+    display: block;
+    height: 28px;
+    line-height: 1;
+    padding-top: 7px;
+    text-align: center;
+    width: 28px;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .ui-datepicker {
+    border-radius: 6px;
+  }
+
+  .is_notTouchDevice .ui-datepicker-prev:hover {
+    background-image: url(../image/ic-prev001-hover.svg);
+  }
+
+  .is_notTouchDevice .ui-datepicker-next:hover {
+    background-image: url(../image/ic-prev001-hover.svg);
+  }
+}

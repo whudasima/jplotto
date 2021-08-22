@@ -1,0 +1,648 @@
+
+/*=================================
+  reset css
+=================================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: bottom;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:focus, *:focus {
+  outline: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*=================================
+  definition
+=================================*/
+/* $break-point以下の時に@contentを適用 */
+/* $break-point以上の時に@contentを適用 */
+/* $break-point-min以上、$break-point-max以下の時に@contentを適用 */
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold;
+}
+
+/*=================================
+  contents
+=================================*/
+body {
+  line-height: 1.75;
+  font-family: "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+  word-break: break-all;
+  background-color: rgba(252, 229, 238, 0.5);
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background: url("../image/bg_bottom1.png") right bottom no-repeat;
+    background-size: 50%;
+    background-color: rgba(252, 229, 238, 0.5);
+  }
+}
+
+header {
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+header .wrap {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 0;
+}
+
+header .wrap .logo {
+  width: 240px;
+}
+
+@media screen and (max-width: 768px) {
+  header .wrap .logo {
+    width: 150px;
+  }
+}
+
+header .wrap .logo img {
+  width: 100%;
+}
+
+#mainCont {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 130px 0 0 0;
+  background: url("../image/img_bg.jpg") center top no-repeat;
+  background-size: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont {
+    padding: 80px 0 0 0;
+  }
+}
+
+#mainCont .wrap {
+  max-width: 1100px;
+  width: 100%;
+}
+
+#mainCont .mvArea {
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+#mainCont .mvArea h1 {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .mvArea h1 {
+    width: 95%;
+  }
+}
+
+#mainCont .mvArea h1 img {
+  width: 100%;
+}
+
+#mainCont .mvArea .insta {
+  width: 330px;
+  margin: -170px auto 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .mvArea .insta {
+    width: 65%;
+    max-width: 240px;
+    margin: 0 auto 0;
+  }
+}
+
+#mainCont .mvArea .insta img {
+  width: 100%;
+}
+
+#mainCont .mvArea .textArea {
+  max-width: 850px;
+  width: 100%;
+  margin: 50px auto 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .mvArea .textArea {
+    margin: 20px auto 0;
+    text-align: left;
+  }
+}
+
+#mainCont .mvArea .textArea p {
+  margin-bottom: 40px;
+  font-size: 1rem;
+  line-height: 2;
+  color: #333333;
+  z-index: 1;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .mvArea .textArea p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#mainCont .mvArea .textArea span.bg {
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100%;
+  max-width: 1100px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .mvArea .textArea span.bg {
+    top: -10%;
+    width: auto;
+    height: 120%;
+  }
+}
+
+#mainCont .mvArea .textArea span.bg img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .mvArea .textArea span.bg img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#mainCont .profileArea {
+  margin: 100px auto 0;
+  position: relative;
+  z-index: 1;
+}
+
+#mainCont .profileArea h2 {
+  width: 90%;
+  max-width: 220px;
+  margin: 0 auto 30px;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea h2 {
+    max-width: 180px;
+    margin: 0 auto 20px;
+  }
+}
+
+#mainCont .profileArea h2 img {
+  width: 100%;
+}
+
+#mainCont .profileArea #navi {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 0 auto 200px;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea #navi {
+    width: 90%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto 100px;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+#mainCont .profileArea #navi p {
+  width: calc((100% - 60px) / 7);
+  margin: 0 10px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea #navi p {
+    width: calc(50% - 5px);
+  }
+  #mainCont .profileArea #navi p:nth-child(odd) {
+    margin: 0 5px 10px 0;
+  }
+  #mainCont .profileArea #navi p:nth-child(even) {
+    margin: 0 0 10px 5px;
+  }
+}
+
+#mainCont .profileArea #navi p:last-child {
+  margin-right: 0;
+}
+
+#mainCont .profileArea #navi p a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 25px 0 30px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(244, 115, 160, 0.15);
+          box-shadow: 0px 0px 15px 5px rgba(244, 115, 160, 0.15);
+  background: url("../image/ico_menu_under.png") center 90% no-repeat;
+  background-size: 10px;
+  background-color: #ffffff;
+}
+
+#mainCont .profileArea #navi p a img {
+  height: 18px;
+}
+
+#mainCont .profileArea .card2col .cardWrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+#mainCont .profileArea .card2col .cardWrap .card {
+  background-color: #ffffff;
+  -webkit-box-shadow: 10px 10px 20px 5px rgba(244, 115, 160, 0.15);
+          box-shadow: 10px 10px 20px 5px rgba(244, 115, 160, 0.15);
+  width: calc((100% - 40px) /2);
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea .card2col .cardWrap .card {
+    width: 90%;
+    margin: 0 auto 100px;
+  }
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .nameArea {
+  position: relative;
+  margin-bottom: -60px;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea .card2col .cardWrap .card .nameArea {
+    margin-bottom: -30px;
+  }
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .nameArea .face {
+  max-width: 280px;
+  width: 60%;
+  position: relative;
+  top: -120px;
+  left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea .card2col .cardWrap .card .nameArea .face {
+    width: 50%;
+    top: -70px;
+    left: 10px;
+  }
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .nameArea .face img {
+  width: 100%;
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .nameArea .name {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea .card2col .cardWrap .card .nameArea .name {
+    width: 35%;
+    top: 100px;
+    left: 55%;
+  }
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .nameArea .name img {
+  width: 100%;
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .txt {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 60px 30px 60px;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea .card2col .cardWrap .card .txt {
+    padding: 0 30px 15px 30px;
+  }
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .txt ul {
+  margin-bottom: 30px;
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .txt ul li {
+  font-size: 1.1rem;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea .card2col .cardWrap .card .txt ul li {
+    font-size: 1rem;
+  }
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .txt ul li:first-child {
+  color: #F473A0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .txt ul li:first-child::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: rgba(244, 92, 167, 0.35);
+  position: absolute;
+  left: -60px;
+  top: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  #mainCont .profileArea .card2col .cardWrap .card .txt ul li:first-child::after {
+    left: -30px;
+    width: 20px;
+  }
+}
+
+#mainCont .profileArea .card2col .cardWrap .card .txt ul li:last-child {
+  color: #333333;
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    margin-top: 30px;
+  }
+}
+
+footer .btnTop {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: -200px;
+  right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  footer .btnTop {
+    width: 100px;
+    height: 100px;
+    top: -100px;
+    right: 2%;
+  }
+}
+
+footer .btnTop img {
+  width: 100%;
+}
+
+footer .copy {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 0;
+  font-size: .8rem;
+}
+
+@media screen and (max-width: 768px) {
+  footer .copy {
+    font-size: .6rem;
+  }
+}

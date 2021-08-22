@@ -1,0 +1,385 @@
+
+
+@import url("all.css");
+
+
+/*=================[すべてに適用]=================*/
+@media all {
+
+html {
+  font-size: 62.5%;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+  background:#e7e7e7;
+  background-size: 50px;
+  color: #000;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  background-size: 40px;
+  font-size: 1.4rem;
+  min-width:initial;
+}
+
+article,
+aside,
+details,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  font-size: 0px;
+  vertical-align: bottom;
+}
+
+.pc {
+  display: none!important;
+}
+
+.sp {
+  display: inline-block!important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/*a*/
+a, a img {
+  color: #e00517;
+  text-decoration: underline;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+a:visited {
+  color: #e00517;
+}
+
+a:hover {
+  color: #b90111;
+  text-decoration: none;
+}
+
+a:active {
+  color: #b90111;
+}
+
+a:hover img {
+  opacity: 0.8;
+}
+
+/*========= kv (SP) =========*/
+.kv {
+  margin-bottom: 4%;
+}
+
+/*========= nav (SP) =========*/
+.nav {
+  padding: 0 3%;
+  margin-bottom: 6%;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav__list__item {
+  width: 48.5%;
+}
+
+.nav__list__item--wide {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+
+/*========= contents (SP) =========*/
+.contents {
+  padding: 0 3% 8%;
+}
+
+.contents__box {
+  margin-bottom: 8%;
+}
+
+.contents__box--site {
+  margin-bottom: 4%;
+}
+
+.contents__box__list {
+  background: #fff;
+  padding: 3% 3% 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.contents__box__list--flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contents__box__list__item {
+  padding-bottom: 3%;
+}
+
+.contents__box__list__item--more {
+  display: none;
+}
+
+.contents__box__list__item__img {
+  border-radius: 5px;
+}
+
+.contents__box__list--site {
+  border:3px solid #ff0015;
+  border-top:none;
+}
+
+.contents__box__list--store {
+  border:3px solid #f6ff02;
+  border-top:none;
+}
+
+.contents__box__list--app {
+  border:3px solid #ff0015;
+  border-top:none;
+}
+
+
+
+/*========= back-cpidx (SP) =========*/
+.back-cpidx {
+  text-align: center;
+}
+
+
+
+/*========= footer (SP) =========*/
+.footer {
+  padding: 15px;
+  background: #eee;
+  color: #666;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__logo__img {
+  width: 60%;
+}
+
+.footer__logo__copyright {
+  font-size: 0.8rem;
+}
+
+
+/*========= pagetop (SP) =========*/
+/*pagetop*/
+#pagetop {
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  text-align: center;
+  line-height: 1;
+  font-size: 1.8rem;
+  z-index: 99999;
+}
+
+#pagetop a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: #e00517;
+  background: #fff;
+  border-radius: 1000px;
+  padding: 15px;
+}
+
+#pagetop a:hover {
+  background: #e00517;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+}
+
+
+/*=================[PC向け適用]=================*/
+@media all and (min-width: 769px) {
+html {
+  background-size: 50px;
+}
+
+body {
+  font-size: 1.5rem;
+  background-size: 75px;
+  min-width:1000px;
+}
+
+.pc {
+  display: inline-block!important;
+}
+
+.sp {
+  display: none!important;
+}
+
+/*========= kv (PC) =========*/
+.kv {
+  background:#ff0015 url(../image/kv_pc_bg.jpg) no-repeat center top;
+	background-size: 1200px;
+}
+
+.kv__img {
+	width: 850px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.kv__img__tit {
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
+}
+
+
+/*========= nav (PC) =========*/
+.nav {
+  width: 960px;
+  padding: 0 0 60px;
+  margin: 0px auto;
+}
+
+.nav__list__link {
+  top:0;
+  position: relative;
+}
+
+.nav__list__link:hover {
+  top:5px;
+}
+
+
+/*========= contents (PC) =========*/
+.contents {
+  padding: 0 0 60px;
+  width: 960px;
+  margin: 0px auto;
+}
+
+.contents__box {
+  margin-bottom: 80px;
+}
+
+.contents__box__list {
+  background: #fff;
+  padding: 20px 20px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.contents__box__list__item {
+  padding-bottom: 25px;
+}
+
+.contents__box__list__item--more {
+  display: block;
+}
+
+.contents__box__list--flex .contents__box__list__item {
+  width: 48.7%;
+}
+
+.contents__box__list__item__img {
+  border-radius: 10px;
+}
+
+.contents__box--site {
+  margin-bottom: 15px;
+}
+
+.contents__box__list--site {
+  border:5px solid #ff0015;
+  border-top:none;
+}
+
+.contents__box__list--store {
+  border:5px solid #f6ff02;
+  border-top:none;
+}
+
+.contents__box__list--app {
+  border:5px solid #ff0015;
+  border-top:none;
+}
+
+
+/*========= pagetop (PC) =========*/
+#pagetop a {
+  padding: 20px;
+}
+
+
+
+/*========= footer (PC) =========*/
+.footer {
+  padding: 25px;
+  text-align: right;
+}
+
+.footer__inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer__inner__logo{
+  float: left;
+}
+
+.footer__logo__img {
+  width: 260px;
+}
+
+.footer__logo__copyright {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 30px 0 0 0;
+}
+
+
+
+}

@@ -1,0 +1,122 @@
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+div.m_overrideBox  body, div.m_overrideBox  div, div.m_overrideBox  span, div.m_overrideBox  object, div.m_overrideBox  iframe,
+div.m_overrideBox  h2, div.m_overrideBox  h3, div.m_overrideBox  h4, div.m_overrideBox  h5, div.m_overrideBox  h6, div.m_overrideBox  p, div.m_overrideBox  blockquote, div.m_overrideBox  pre, 
+div.m_overrideBox abbr, div.m_overrideBox  address, div.m_overrideBox  cite, div.m_overrideBox  code,
+div.m_overrideBox del, div.m_overrideBox  dfn, div.m_overrideBox  em, div.m_overrideBox  img, div.m_overrideBox  ins, div.m_overrideBox  kbd, div.m_overrideBox  q, div.m_overrideBox  samp
+small, div.m_overrideBox  strong, div.m_overrideBox  sub, div.m_overrideBox  sup, div.m_overrideBox  var, div.m_overrideBox ,
+div.m_overrideBox b, div.m_overrideBox  i,
+div.m_overrideBox dl, div.m_overrideBox  dt, div.m_overrideBox  dd, div.m_overrideBox  ol, div.m_overrideBox  ul, div.m_overrideBox  li,
+div.m_overrideBox fieldset, div.m_overrideBox  form, div.m_overrideBox  label, div.m_overrideBox  legend,
+div.m_overrideBox table, div.m_overrideBox  caption, div.m_overrideBox  tbody, div.m_overrideBox  tfoot, div.m_overrideBox  thead, div.m_overrideBox  tr, div.m_overrideBox  th, div.m_overrideBox  td,
+div.m_overrideBox article, div.m_overrideBox  aside, div.m_overrideBox  canvas, div.m_overrideBox  details, div.m_overrideBox  figcaption, div.m_overrideBox  figure,
+div.m_overrideBox  header, div.m_overrideBox  hgroup, div.m_overrideBox  menu, div.m_overrideBox  nav, div.m_overrideBox  section, div.m_overrideBox  summary,
+div.m_overrideBox time, div.m_overrideBox  mark, div.m_overrideBox  audio, div.m_overrideBox  video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+div.m_overrideBox article,div.m_overrideBox aside,div.m_overrideBox details,div.m_overrideBox figcaption,div.m_overrideBox figure,
+div.m_overrideBox hgroup,menu,div.m_overrideBox nav,div.m_overrideBox section { 
+	display:block;
+}
+
+div.m_overrideBox nav ul {
+    list-style:none;
+}
+
+div.m_overrideBox blockquote, div.m_overrideBox q {
+    quotes:none;
+}
+
+div.m_overrideBox blockquote:before,div.m_overrideBox blockquote:after,
+div.m_overrideBox q:before,div.m_overrideBox q:after {
+    content:'';
+    content:none;
+}
+
+div.m_overrideBox a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+div.m_overrideBox a:hover {
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+div.m_overrideBox ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+div.m_overrideBox mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+div.m_overrideBox del {
+    text-decoration: line-through;
+}
+
+div.m_overrideBox abbr[title],div.m_overrideBox dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+div.m_overrideBox table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+div.m_overrideBox hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+div.m_overrideBox input, div.m_overrideBox select {
+    vertical-align:middle;
+}
+
+
+/*---- ページ共通コンテンツエリア ----*/
+div.m_overrideBox{
+	font-size:1.2rem;
+	word-break: normal;
+	line-height:1.0;
+}
+
+div.m_overrideBox small {
+    font-size: 1.2rem;
+}
+
+div.m_overrideBox input, div.m_overrideBox select {
+  vertical-align:middle;
+  color: black;
+  background-color: white;
+  border: solid 1px #000;
+}

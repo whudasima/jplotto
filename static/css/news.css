@@ -1,0 +1,368 @@
+
+/* CSS Document */
+
+/* 共通 */
+.news-contents-box, .news-contents-box span, .news-contents-box object, .news-contents-box iframe,
+.news-contents-box h2, .news-contents-box h3, .news-contents-box h4, .news-contents-box h5, .news-contents-box h6,
+.news-contents-box p, .news-contents-box blockquote, .news-contents-box pre, .news-contents-box abbr, .news-contents-box address, .news-contents-box cite, .news-contents-box code,
+.news-contents-box del, .news-contents-box dfn, .news-contents-box em, .news-contents-box img, .news-contents-box ins, .news-contents-box kbd, .news-contents-box q, .news-contents-box small, .news-contents-box strong, .news-contents-box sub, .news-contents-box sup, .news-contents-box var, .news-contents-box b, .news-contents-box i,
+.news-contents-box dl, .news-contents-box dt, .news-contents-box dd, .news-contents-box ol, .news-contents-box ul, .news-contents-box li,
+.news-contents-box fieldset, .news-contents-box form, .news-contents-box label, .news-contents-box legend,
+.news-contents-box table, .news-contents-box caption, .news-contents-box tbody, .news-contents-box tfoot, .news-contents-box thead, .news-contents-box tr, .news-contents-box th, .news-contents-box td,
+.news-contents-box article, .news-contents-box aside, .news-contents-box canvas, .news-contents-box details, .news-contents-box figcaption, .news-contents-box figure,
+.news-contents-box header, .news-contents-box hgroup, .news-contents-box menu, .news-contents-box nav, .news-contents-box section, .news-contents-box summary,
+.news-contents-box time, .news-contents-box mark, .news-contents-box audio, .news-contents-box video {
+    border:0;
+    outline:0;
+    font-size:12px;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+.news-contents-box p{
+	font-size:1.2rem;
+	word-break: normal;
+	line-height: 2.0;
+	margin: 0 0 1.5em;
+}
+
+.news-contents-box small {
+    font-size: 0.9em;
+}
+.news-contents-box .img_txt {
+    max-width: 24px;
+    vertical-align: -6%;
+}
+
+@media screen and (max-width: 768px){
+	.news-contents-box p {
+	   	line-height: 1.3;
+	}
+}
+
+/* ラッパー */
+.news-contents-box .profile-box {
+    margin: 20px 0 30px;
+}
+.news-contents-box .profile-box-non-mt {
+    margin: 0 0 10px;
+}
+.news-contents-box .news-table-period {
+    margin-bottom: 30px;
+}
+
+/* 中見出し */
+.news-contents-box h3 {
+    display: inline-block;
+    font-size: 1.3333em;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+.news-contents-box h3 .point {
+    display: inline-block;
+    background-color: #e60000;
+    width: 9px;
+    height: 9px;
+    margin-right: 10px;
+}
+.news-contents-box h4 {
+	display: inline-block;
+	font-size: 1.1667em;
+	font-weight: bold;
+	margin: 0 0 10px;
+	line-height: 1.4;
+}
+.news-contents-box h5 {
+    display: block;
+    font-size: 1.1667em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    line-height: 2.0;
+}
+
+@media screen and (max-width: 768px){
+	.news-contents-box h3 {
+    	font-size: 1.25em;
+    }
+}
+
+/* 中央よせ画像(画像サイズ変わるので要調整) */
+.news-contents-box .img-box {
+    margin: 0 0 25px;
+    text-align: center;
+}
+.news-contents-box .pc-wid150 {
+    width: 150px!important;
+    height: auto!important;
+}
+.news-contents-box .pc-wid300 {
+    width: 300px!important;
+    height: auto!important;
+}
+.news-contents-box .pc-wid444 {
+	width: 444px!important;
+	height: auto!important;
+}
+.news-contents-box .pc-wid500 {
+    width: 500px!important;
+    height: auto!important;
+}
+.news-contents-box .wide30 {
+    width: 30%!important;
+}
+
+@media screen and (max-width: 768px){
+	.news-contents-box .sp-wide80 {
+    	width: 80%!important;
+	}
+	.news-contents-box .sp-wide50 {
+		width: 50%!important;
+	}
+}
+
+/* 強調罫囲い */
+.news-contents-box .scratch_play_box {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px 20px;
+    line-height: 1.5;
+    border: 2px solid #e60000;
+}
+
+.news-contents-box .scratch_play_box > .notice{
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 1.5;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px){
+	.news-contents-box .scratch_play_box {
+    	margin-top: 36px;
+	}
+}
+
+/* タイトル付 強調罫囲い */
+.news-contents-box .scratch_play_box {
+    padding: 30px 20px 15px;
+}
+
+.news-contents-box .play_ttl {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    width: auto;
+    text-align: left;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e60000;
+    border: 2px solid #e60000;
+}
+
+@media screen and (max-width: 768px){
+	.news-contents-box .scratch_play_box {
+    	margin-top: 36px;
+    	padding-top: 37px;
+	}
+
+	.news-contents-box .scratch_play_box .play_ttl {
+    	top: -26px;
+    	width: calc(100% - 40px);
+    	text-align: center;
+	}
+}
+
+/* 区切り線 */
+.news-contents-box .dotted {
+    line-height: 2.0;
+    margin-bottom: 1.5em;
+    border-bottom: 1px dotted #333;
+}
+
+/* --- table共通 -------------- */
+.news-contents-box .news-table {
+	line-height: 1.5;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.news-contents-box .news-table th {
+    border-top: 1px solid #c7c6c6;
+    border-bottom: 1px solid #c7c6c6;
+    border-left: 1px solid #c7c6c6;
+    background-color: #fff5e5;
+    padding: 12px;
+    text-align: center;
+    vertical-align: top;
+    width: 23.17%;
+    font-weight: normal;
+    color: #323232;
+    word-break:normal;
+}
+.news-contents-box .data-table td.number02 {
+    width: 3.5em;
+}
+.news-contents-box .data-table td {
+    padding-bottom: 1em;
+}
+.news-contents-box .news-table td{
+	border: 1px solid #c7c6c6;
+	padding: 10px;
+	vertical-align: top;
+}
+.news-contents-box td, .news-contents-box td p {
+    line-height: 1.5;
+}
+.news-contents-box .data-table p.text {
+    margin-bottom: 0.5em;
+}
+.news-contents-box .data-table .list02 {
+    margin-bottom: 0;
+}
+
+/* 3列表組み */
+.news-contents-box .news-table2 th {
+    vertical-align: middle;
+    border-right: 1px solid #c7c6c6;
+    background-color: #fee79d;
+    /* font-weight: bold; */
+    color: #323232;
+}
+.news-contents-box th.news-table-th {
+    background-color: #fff5e5;
+}
+
+/* 発売期間情報 */
+.news-contents-box .news-table-period table {
+    margin: auto;
+}
+.news-contents-box .news-table-period {
+	padding: 0px;
+}
+.news-contents-box .news-table-period th {
+    width: 90px;
+    padding: 5.4px;
+    line-height:1;
+}
+
+/* 2列表組 */
+.news-contents-box .news-table-mb10 {
+    margin-bottom: 10px;
+}
+
+/* くじの日対象回号表組 */
+.news-contents-box p.dl_table_ttl {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff5e5;
+    border: 1px solid #c7c6c6;
+}
+.news-contents-box dl.dl_table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+.news-contents-box dl.dl_table dt {
+    display: table-cell;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #c7c6c6;
+    border-top: none;
+}
+.news-contents-box dl.dl_table dd {
+    display: table-cell;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #c7c6c6;
+    border-top: none;
+}
+
+/* 人物紹介 */
+.news-contents-box .img-box .show_menber {
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px 15px;
+    height: auto;
+    line-height: 1.5em;
+}
+.news-contents-box .img-box:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.news-contents-box .img-box .show_menber img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e60000;
+}
+@media screen and (max-width: 768px){
+	.news-contents-box .img-box .show_menber {
+    	float: left;
+    	width: 48%;
+    	margin: 0 1% 15px;
+	}
+	.news-contents-box .img-box .show_menber.center {
+		float: none;
+	}
+	.sp-wide80 {
+    	width: 80%!important;
+	}
+}
+
+/* D館イベント */
+.news-contents-box .news-table .td-mid, .news-contents-box .news-table .th-mid {
+    vertical-align: middle;
+}
+.news-contents-box .news-table2-th th{
+	width: auto;
+}
+.news-contents-box .ta_c td{
+	text-align: center;
+}
+@media screen and (max-width: 768px){
+	.news-contents-box .news-table-th,
+	.news-contents-box .news-table th, .news-contents-box .news-table td, .news-contents-box .news-table2 th, .news-contents-box .news-table2 td, .news-contents-box .news-table3 th, .news-contents-box .news-table3 td, .news-contents-box .news-table4 th, .news-contents-box .news-table4 td {
+	    word-break: break-all;
+	}
+
+	.news-contents-box .news-table th {
+    	padding: 10px 8px;
+    	width: 24.65%;
+    	line-height: 1.3;
+	}
+}
+
+/* 支払い抽選会表組 */
+@media screen and (max-width: 768px){
+	.news-contents-box .scroll_y {
+    	overflow-y: scroll;
+	}
+}
+
+/* 転載禁止・著作権表示 */
+.news-contents-box .caution {
+    line-height: 1.5;
+    padding: 12px 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #f5f5eb;
+}
+
+
+/* 印刷用・PC/SP */
+.news-contents-box .pc_none { display: none; }
+.news-contents-box .sp_none { display: block; }
+.news-contents-box .ta_l { text-align: left!important; }
+.news-contents-box .ta_r { text-align: right!important; }
+.news-contents-box .ta_c { text-align: center!important; }
+
+@media screen and (max-width: 768px) {
+	.news-contents-box .pc_none { display: block; }
+	.news-contents-box .sp_none { display: none; }
+}

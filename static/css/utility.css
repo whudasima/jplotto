@@ -1,0 +1,206 @@
+
+
+/**********************************************
+ * utility.css
+ * 便利class
+ *********************************************/
+
+@media all {
+  .u_ib {
+    display: inline-block !important;
+  }
+
+  .u_fontS {
+    font-size: 1.2rem !important;
+  }
+
+  .u_fontS2 {
+    font-size: 1.0rem !important;
+  }
+
+  .u_fontS4 {
+    font-size: 1.2rem !important;
+  }
+
+  .u_colorAlert {
+    color: #e50000 !important;
+  }
+
+  .u_colorPlaceholder {
+    color: #e6e6e6 !important;
+  }
+
+  .u_colorNote {
+    color: #818181 !important;
+  }
+
+  .u_mtNone {
+    margin-top: 0 !important;
+  }
+
+  .u_mbNone {
+    margin-bottom: 0 !important;
+  }
+
+  .u_mtbNone {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .u_mr {
+    margin-right: 4px !important;
+  }
+
+  .u_mr {
+    margin-right: 8px !important;
+  }
+
+  .u_mtDefault {
+    margin-top: 12px !important;
+  }
+
+  .u_mbDefault {
+    margin-bottom: 12px !important;
+  }
+
+  .u_mtbDefault {
+    margin-bottom: 12px !important;
+    margin-top: 12px !important;
+  }
+
+  .u_mtLarge {
+    margin-top: 16px !important;
+  }
+
+  .u_mbLarge {
+    margin-bottom: 16px !important;
+  }
+
+  .u_mtbLarge {
+    margin-bottom: 16px !important;
+    margin-top: 16px !important;
+  }
+
+  .u_mtHalf {
+    margin-top: 6px !important;
+  }
+
+  .u_mbHalf {
+    margin-bottom: 6px !important;
+  }
+
+  .u_mtbHalf {
+    margin-bottom: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  .u_bold {
+    font-weight: bold !important;
+  }
+
+  .u_spBold {
+    font-weight: bold !important;
+  }
+
+  .u_center {
+    text-align: center !important;
+  }
+
+  .u_right {
+    text-align: right !important;
+  }
+
+  .u_left {
+    text-align: left !important;
+  }
+
+  .u_vMiddle {
+    vertical-align: middle !important;
+  }
+
+  .u_vBottom {
+    vertical-align: bottom !important;
+  }
+
+  .u_nowrap {
+    white-space: nowrap;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .u_pcHide {
+    display: none !important;
+  }
+
+  .u_fontS2 {
+    font-size: 1.2rem !important;
+  }
+
+  .u_fontS3 {
+    font-size: 1.2rem !important;
+  }
+
+  .u_fontS4 {
+    font-size: inherit !important;
+  }
+
+  .u_mtDefault {
+    margin-top: 16px !important;
+  }
+
+  .u_mbDefault {
+    margin-bottom: 16px !important;
+  }
+
+  .u_mtbDefault {
+    margin-bottom: 16px !important;
+    margin-top: 16px !important;
+  }
+
+  .u_mtLarge {
+    margin-top: 24px !important;
+  }
+
+  .u_mbLarge {
+    margin-bottom: 24px !important;
+  }
+
+  .u_mtbLarge {
+    margin-bottom: 24px !important;
+    margin-top: 24px !important;
+  }
+
+  .u_mtHalf {
+    margin-top: 8px !important;
+  }
+
+  .u_mbHalf {
+    margin-bottom: 8px !important;
+  }
+
+  .u_mtbHalf {
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+  }
+
+  .u_PcRight {
+    text-align: right !important;
+  }
+
+  .u_pcBold {
+    font-weight: bold !important;
+  }
+
+  .u_spWrapClr {
+    overflow: auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .u_spHide {
+    display: none !important;
+  }
+  .u_spWrapClr {
+    overflow: visible;
+  }
+}

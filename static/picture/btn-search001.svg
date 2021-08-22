@@ -1,0 +1,16 @@
+<svg id="btn-search001.svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e50000;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="btn" class="cls-1" width="64" height="64" rx="4" ry="4"/>
+  <path id="検索アイコン" class="cls-2" d="M562.416,86.675l-8.787-8.789a15.878,15.878,0,1,0-3.747,3.746l8.788,8.789A2.649,2.649,0,0,0,562.416,86.675Zm-29.232-10.5a10.6,10.6,0,1,1,14.984,0A10.61,10.61,0,0,1,533.184,76.172Z" transform="translate(-512 -40)"/>
+</svg>

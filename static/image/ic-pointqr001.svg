@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 19 19" style="enable-background:new 0 0 19 19;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E60012;}
+</style>
+<rect x="4" y="12" class="st0" width="3" height="3"/>
+<rect x="4" y="4" class="st0" width="3" height="3"/>
+<rect x="12" y="4" class="st0" width="3" height="3"/>
+<g>
+	<path class="st0" d="M16,2h-6v7h7V3C17,3,17,2,16,2z M16,8h-5V3h5V8z"/>
+</g>
+<g>
+	<path class="st0" d="M2,3v6h7V2H3C2,2,2,3,2,3z M3,3h5v5H3V3z"/>
+</g>
+<g>
+	<path class="st0" d="M3,17h6v-7H2v6C2,16,2,17,3,17z M3,11h5v5H3V11z"/>
+</g>
+<rect x="14" y="10" class="st0" width="3" height="3"/>
+<path class="st0" d="M17,14h-3v3h2c0,0,1,0,1-1V14z"/>
+<rect x="10" y="14" class="st0" width="3" height="3"/>
+<rect x="10" y="10" class="st0" width="3" height="3"/>
+</svg>

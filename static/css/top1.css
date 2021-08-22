@@ -1,0 +1,129 @@
+
+/* ------------------------------------------------
+  top
+------------------------------------------------ */
+#fukidashi {
+  display: none;
+}
+
+#main_column {
+  min-width: auto;
+  min-width: initial;
+}
+
+#top .ttl-page {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(../image/kv.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+#top .btn01 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#top .btn01 .obj {
+  background: url(../image/btn01_obj.png) no-repeat;
+  width: 59px;
+  height: 77px;
+  position: absolute;
+  bottom: -8px;
+  right: -20px;
+}
+
+#top .info {
+  margin: auto;
+  width: 604px;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+}
+
+#top .info dl {
+  font-size: 12px;
+  border: 2px solid #000;
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+#top .info dt {
+  position: absolute;
+  top: -22px;
+  left: 13px;
+}
+
+#top .info dd {
+  padding: 15px;
+}
+
+#top .info li {
+  overflow: hidden;
+}
+
+#top .info li + li {
+  margin-top: 7px;
+}
+
+#top .info li .date {
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+
+#top .info li .cont {
+  display: block;
+  overflow: hidden;
+}
+
+#top .info li .cont > a {
+  text-decoration: underline;
+}
+
+#top .info li .cont > a:hover {
+  text-decoration: none;
+}
+
+#top .info li .new {
+  color: #e4007f;
+  margin-left: 7px;
+  display: inline-block;
+}
+
+sup.en {
+  font-family: "Verdana", "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-size: 100%;
+  vertical-align: top;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  #main_column > article {
+      background-color: #e4007f;
+  }
+  #top .ttl-page {
+      position: relative;
+      background: none;
+      text-indent: inherit;
+      white-space: normal;
+  }
+  #top .ttl-page img {
+    width: 100%;
+    height: auto;
+  }
+
+}
